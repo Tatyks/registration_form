@@ -22,3 +22,8 @@ body {
     min-width: 300px;
     width: 60vw;
  }
+ fieldset {
+  padding: 2rem 0 2rem 0;
+  border: none;
+  border-bottom: 3px solid #3b3b4f;
+ }
