@@ -21,12 +21,17 @@ body {
     max-width: 500px;
     min-width: 300px;
     width: 60vw;
+    padding-bottom: 2em;
  }
  fieldset {
   padding: 2rem 0 2rem 0;
   border: none;
   border-bottom: 3px solid #3b3b4f;
  }
+ a {
+
+  color: #dfdfe2;
+}
 
  fieldset:last-of-type {
   border-bottom: none;
@@ -48,4 +53,17 @@ textarea {
   border: 1px solid #0a0a23 ;
   color: #ffffff;
 
+}
+input[type="submit"] {
+  display: block;
+  width:60%;
+  min-width: 300px;
+  margin: 1em auto 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color:white;
+}
+input[type="file"]{
+  padding: 1px 2px;
 }
